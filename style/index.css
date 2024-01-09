@@ -11,7 +11,7 @@ main {
 }
 
 img {
-    height: 3rem;
+    height: 6rem;
 }
 
 ul {
@@ -22,7 +22,7 @@ ul {
 }
 
 ul img {
-    height: 10px;
+    height: 20px;
 }
 
 li {
