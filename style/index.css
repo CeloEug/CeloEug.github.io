@@ -6,7 +6,7 @@
 body {
     background-image: url("/assets/background.png");
     height: 100vh;
-    width: 100vw;
+    width: auto;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@ body {
 }
 
 img {
-    height: 200px;
+    max-height: 30vh;
 }
 
 ul {
