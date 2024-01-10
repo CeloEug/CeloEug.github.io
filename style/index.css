@@ -4,14 +4,18 @@
     padding: 0px;
 }
 
+body {
+    background-image: url("/assets/background.png");
+    background-size: cover;
+}
+
 main {
-    background-image: url("assets/background.png");
     display: grid;
     justify-content: center;
 }
 
 img {
-    height: 6rem;
+    height: 200px;
 }
 
 ul {
@@ -22,7 +26,7 @@ ul {
 }
 
 ul img {
-    height: 20px;
+    height: 35px;
 }
 
 li {
@@ -30,5 +34,5 @@ li {
 }
 
 li:hover {
-    transform: scale(1.3)
+    transform: scale(1.4)
 }
