@@ -1,12 +1,23 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
 }
 
-body {
+:root {
+    --coffee: #38220f;
+}
+
+main {
     background-image: url("/assets/background.png");
+<<<<<<< HEAD
     height: 100vh;
     width: auto;
+=======
+    height: 98vh;
+    padding: 2px;
+>>>>>>> 33549250a0b32de6d4f5bc789e46a1b3d854dc19
     background-size: cover;
     display: flex;
     align-items: center;
@@ -34,4 +45,52 @@ li {
 
 li:hover {
     transform: scale(1.4)
+}
+
+footer {
+    height: auto;
+    color: white;
+    background-color: var(--coffee);
+    display:flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width:1000px) {
+    img {
+        height: 120px; 
+    }
+
+    ul img {
+        height: 30px; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        height: 80px; 
+    }
+
+    ul img {
+        height: 25px; 
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    img {
+        height: 50px; 
+    }
+
+    ul img {
+        height: 20px; 
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    img {
+        height: 50px; 
+    }
+
+    ul img {
+        height: 20px; 
+    }
 }
