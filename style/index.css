@@ -36,7 +36,7 @@ li:hover {
     transform: scale(1.4)
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width:1000px) {
     img {
         height: 120px; 
     }
@@ -52,7 +52,7 @@ li:hover {
     }
 
     ul img {
-        height: 30px; 
+        height: 25px; 
     }
 }
 
@@ -62,7 +62,7 @@ li:hover {
     }
 
     ul img {
-        height: 25px; 
+        height: 20px; 
     }
 }
 
