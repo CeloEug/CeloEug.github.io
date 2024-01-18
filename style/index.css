@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: small;
+    font-size: 1.6vw;
 }
 
 :root {
@@ -22,6 +22,8 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
+    height: 60vh;
 }
 
 img {
@@ -37,7 +39,7 @@ ul {
 }
 
 ul img {
-    height: 4vw;
+    height: 3.5vw;
     width: auto;
 }
 
